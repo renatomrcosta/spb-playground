@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sbp-playground
+management:
+  endpoint:
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      base-path: "/"
+      path-mapping:
+        prometheus: metrics
+        actuator: actuator
+      exposure:
+        include: info, metrics, health
+  server:
+    port: 8081
