@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController
 /**
  * Contrived work example to test out how Worker Pools are managed using Reactor + Coroutines
  */
-@RestController
+// @RestController
 class CoroutineTestController {
 
     @GetMapping("healthcheck")
