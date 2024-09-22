@@ -36,7 +36,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 
-    implementation("org.apache.thrift:libthrift:0.13.0")
+    implementation("org.apache.thrift:libthrift:0.21.0")
     implementation("info.developerblog.spring.thrift:spring-thrift-starter:+")
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
